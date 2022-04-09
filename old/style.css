@@ -1,0 +1,305 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot);
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot?#iefix) format("embedded-opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.otf) format("opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.svg) format("svg"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.ttf) format("truetype"),
+      url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff) format("woff"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("fonts/Gilroy-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Gilroy-SemiBold.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Gilroy-SemiBold.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Gilroy-SemiBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Gilroy-SemiBold.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Gilroy-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Inter-Regular.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Inter-Regular.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Inter-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Inter-Regular.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Inter-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+.inner_div{
+    width: 100%;
+}
+.banner{
+  position: relative;
+  width: 100%;
+}
+.banner_img{
+  width:100%;
+  height: auto;
+}
+.breadcrums{
+  position: absolute;
+  left:0px;
+  top:0px;
+  display:flex;
+  background-color: rgba(0, 0, 0, 0.351);
+  width:calc(100% - 40px);
+  z-index: 2;
+  padding: 20px;
+}
+.breadcrums_link{
+  display: inline-flex;
+  text-align: left;
+  font-size: 14px;
+  font-family: JMSansRegular;
+  letter-spacing: 0px;
+  color: #F2F2F2;
+  opacity: 0.8;
+  line-height:24px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.banner_content{
+  width: calc(100% - 40px);
+  position: absolute;
+  max-width: 1344px;
+  left: 50%;
+  top: 105px;
+  margin-left: calc(-1 * 1344px / 2);
+}
+.banner_text{
+  text-align: left;
+  font-size:48px;
+  font-family: JMSansMedium;
+  line-height:60px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 8px #000000;
+  opacity: 1;
+}
+.banner_title{
+  text-align: left;
+  font-size: 18px;
+  font-family: JMSansRegular;
+  letter-spacing: 0px;
+  color: #F2F2F2;
+  opacity: 0.8;
+  line-height:24px;
+  margin-right: 15px;
+}
+.banner_btnlist{
+  display: flex;
+  flex-direction: column;
+}
+.btn_arrow_icon{
+  background-image: url(images/arrow.svg);
+  width: 24px;
+  height: 20px;
+  margin-left: 5px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.btn{
+  background-color: #1E22AA;
+  max-width: 350px;
+  padding: 15px;
+  text-align: right;
+  font-size:18px;
+  font-family: JMSansMedium;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: flex-end;
+}
+.banner_bottom{
+ width: 100%;
+ padding: 30px 0px;
+ background-color:#1E22AA ;
+ position: relative;
+ top:-3px; 
+ display: flex;
+}
+.banner_bottomcont{
+width: calc(100% - 40px);
+max-width: 1344px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+.banner_bottom_inner{
+  width: 50%;
+  padding-left: 76px;
+}
+.banner_bottomdivider{
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #FFFFFF;
+  left: 50%;
+  margin-left: -1px;
+  top: 0;
+}
+.banner_bottom_title{
+  text-align: left;
+  font-size:16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-family: JMSansRegular;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+.banner_bottom_bold_title{
+  text-align: left;
+  font-size:44px;
+  font-family: JMSansBold;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+.banner_bottom_text{
+  text-align: left;
+  font-size:24px;
+  line-height: 32px;
+  font-family: JMSansRegular;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: lowercase;
+  margin-top: 10px;
+}

@@ -1,0 +1,211 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot);
+  src: url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.eot?#iefix) format("embedded-opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.otf) format("opentype"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.svg) format("svg"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.ttf) format("truetype"),
+      url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff) format("woff"), url(https://secureservercdn.net/160.153.138.71/rpn.c04.myftpupload.com/wp-content/themes/UXGURUS/css/fonts/Gilroy-Black.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("fonts/Gilroy-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Gilroy-SemiBold.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Gilroy-SemiBold.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Gilroy-SemiBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Gilroy-SemiBold.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Gilroy-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Inter-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Inter-Regular.otf") format("opentype"),
+    /* Open Type Font */ url("fonts/Inter-Regular.svg") format("svg"),
+    /* Legacy iOS */ url("fonts/Inter-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Inter-Regular.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Inter-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+.inner_div{
+  width: 1124px;
+  display: block;
+  margin: 0 auto;
+}
+.heading{
+  font-size: 36px;
+  font-family:JMSansMedium;
+  font-style: bold;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.boxes{
+  width: 50%;
+  padding: 50px;
+  background-color:#1E22AA;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.box_head{
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-family: JMSansLight;
+  color: #FFFFFF;
+  width: 70%;
+}
+.box_text{
+  margin-bottom: 40px;
+  font-family: JMSansLight;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 70%;
+}
+#grey{
+background-color: rgba(231, 230, 230, 0.712);
+border: solid grey 0px;
+
+}
+.Explore{
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  outline:none;
+  color: #FFFFFF;
+  background-color: #1E22AA;
+  font-family: "Gilroy-SemiBold";
+}
+.box_cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
